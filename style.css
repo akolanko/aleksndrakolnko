@@ -11,9 +11,9 @@
 }
 
 #aleksandra{
-	position: absolute;
+	position: fixed;
 	z-index: 100;
-	top: 35%;
+	top: 40%;
 	left: 12%;
 	width: 74%;
 	opacity: .7;
