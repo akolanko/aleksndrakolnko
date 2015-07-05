@@ -1,3 +1,8 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
 #container{
 	width: 1100px;
 	height: 300px;
@@ -101,4 +106,48 @@
 	margin-left: 803px;
 	margin-top: 3px;
 	display: none;
+}
+
+@media all and (max-width: 768px){
+
+	#container{
+		width: 300px;
+		height: 960px;
+		margin: 30px auto;
+	}
+
+	#box3{
+		margin-left: 0px;
+		margin-top: 330px;
+	}
+
+	#box4{
+		margin-left: 3px;
+		margin-top: 333px;
+	}
+
+	#img02{
+		margin-left: 3px;
+		margin-top: 333px;
+	}
+
+	#box5{
+		margin-left: 0px;
+		margin-top: 660px;
+	}
+
+	#box6{
+		margin-left: 3px;
+		margin-top: 663px;
+	}
+
+	#img03{
+		margin-left: 3px;
+		margin-top: 663px;
+	}
+}
+
+@media all and (max-width: 480px){
+	
+
 }
