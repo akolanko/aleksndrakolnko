@@ -1,0 +1,62 @@
+#container{
+	width: 600px;
+	margin: 30px auto 0;
+	padding: 0;
+}
+
+#box{
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	z-index: 99;
+}
+
+.pixel{
+	width: 1%;
+	height: 1%;
+	float: left;
+	background-color: #fff;
+	opacity: 0;
+}
+
+#img01{
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	z-index: 30;
+}
+
+@media all and (max-width: 768px){
+
+	#container{
+		width: 600px;
+		margin-top: 50px;
+	}
+
+	#box{
+		width: 600px;
+		height: 600px;
+	}
+
+	#img01{
+		width: 600px;
+		height: 600px;
+	}
+}
+
+@media all and (max-width: 480px){
+	
+	#container{
+		width: 300px;
+	}
+
+	#box{
+		width: 300px;
+		height: 300px;
+	}
+
+	#img01{
+		width: 300px;
+		height: 300px;
+	}
+}
