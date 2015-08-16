@@ -3,17 +3,16 @@ html, body{
 	padding: 0;
 }
 
+body{
+	cursor: url(pointer.png), auto;
+}
+
 a:link{
 	text-decoration: none;
 }
 
-.entrance{
-	display: none;
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	position: absolute;
+a:hover{
+	cursor: url(pointer.png), auto;
 }
 
 .container{
@@ -40,7 +39,23 @@ a:link{
 
 #aleksandra:hover{
 	opacity: 1;
-	cursor: pointer;
+	transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -webkit-transition-duration: .5s;
+    -o-transition-duration: .5s;
+}
+
+#arrow{
+	z-index: 100;
+	position: fixed;
+	right: 30px;
+	top: 300px;
+	width: 20px;
+	display: none;
+}
+
+#arrow:hover{
+	opacity: .5;
 	transition-duration: .5s;
     -moz-transition-duration: .5s;
     -webkit-transition-duration: .5s;
@@ -59,5 +74,9 @@ a:link{
 	.img{
 		width: 20%;
 		float: left;
+	}
+
+	#arrow{
+		top: 260px;
 	}
 }

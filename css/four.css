@@ -1,0 +1,64 @@
+body{
+	cursor: url(pointer.png), auto;
+}
+
+a:hover{
+	cursor: url(pointer.png), auto;
+}
+
+#container{
+	width: 1000px;
+	height: 800px;
+}
+
+.follow-img{
+	position: absolute;
+	width: 60px;
+}
+
+#img01{
+	z-index: 1000;
+}
+
+#img02{
+	z-index: 999;
+}
+
+#img03{
+	z-index: 998;
+}
+
+#img04{
+	z-index: 997;
+}
+
+#img05{
+	z-index: 996;
+}
+
+#img06{
+	z-index: 995;
+}
+
+#arrow{
+	z-index: 100;
+	position: fixed;
+	right: 30px;
+	top: 300px;
+	width: 20px;
+	display: none;
+}
+
+#arrow:hover{
+	opacity: .5;
+	transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -webkit-transition-duration: .5s;
+    -o-transition-duration: .5s;
+}
+
+@media all and (max-width: 480px){
+	#arrow{
+		top: 260px;
+	}
+}

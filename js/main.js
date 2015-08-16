@@ -83,7 +83,6 @@ $(document).ready( function (){
 		$("#img64").delay(5550).animate({opacity: 0}, 500);
 		$("#img57").delay(5700).animate({opacity: 0}, 500);
 		$("#img45").delay(5850).animate({opacity: 0}, 500);
-		$(".container").delay(7500).fadeOut(500);
-		$(".entrance").delay(7500).fadeIn(500);
+		$("#arrow").delay(7500).show(1000);
 	});
 });

@@ -1,0 +1,25 @@
+body{
+	font-family: "Sackers Gothic STD", "Helvetica", "Arial", sans-serif;
+	line-height: 26px;
+}
+
+button{
+	font-family: inherit;
+}
+
+input[type="text"]{
+	font-family: inherit;
+}
+
+input[type="email"]{
+	font-family: inherit;
+}
+
+textarea{
+	font-family: inherit;
+	height: 150px;
+}
+
+input.submit{
+	font-family: "Sackers Gothic STD", "Helvetica", "Arial", sans-serif;
+}
