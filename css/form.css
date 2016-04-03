@@ -1,6 +1,7 @@
 body{
 	font-family: "Sackers Gothic STD", "Helvetica", "Arial", sans-serif;
 	line-height: 26px;
+	font-size: 16px;
 }
 
 button{
@@ -9,17 +10,34 @@ button{
 
 input[type="text"]{
 	font-family: inherit;
+	width: 250px;
+	border: 2px solid #c6c6c6;
+	font-size: 14px;
 }
 
 input[type="email"]{
 	font-family: inherit;
+	width: 250px;
+	border: 2px solid #c6c6c6;
+	font-size: 14px;
 }
 
 textarea{
 	font-family: inherit;
 	height: 150px;
+	width: 250px;
+	border: 2px solid #c6c6c6;
+	font-size: 14px;
 }
 
-input.submit{
-	font-family: "Sackers Gothic STD", "Helvetica", "Arial", sans-serif;
+button.submit{
+	font-family: inherit;
+	border: 2px solid #c6c6c6;
+	border-radius: 0;
+	background-color: #fff;
+	font-size: 14px;
+}
+
+button.submit:hover{
+	background-color: #e4e4e4;
 }
